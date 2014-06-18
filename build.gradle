@@ -16,3 +16,8 @@ task runFileExample(type: JavaExec, dependsOn: 'classes') {
     main = 'com.dephillipsdesign.jruby.FileExample'
     classpath = sourceSets.main.runtimeClasspath
 }
+
+task runScriptletExample(type: JavaExec, dependsOn: 'classes') {
+    main = 'com.dephillipsdesign.jruby.Scriptlet'
+    classpath = sourceSets.main.runtimeClasspath
+}
