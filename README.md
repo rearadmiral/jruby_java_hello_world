@@ -8,6 +8,8 @@ Install [gradle](http://www.gradle.org)
 Command Line
 ------------
 
-    > gradle jar
+    > gradle runScriptletExample
 
-    > java -cp build/libs/jruby_java_hello_world-1.0.0.jar com.dephillipsdesign.jruby.Main
+then...
+
+    > gradle runFileExample
