@@ -8,7 +8,7 @@ import org.jruby.runtime.builtin.IRubyObject;
 
 import java.util.HashMap;
 
-class Main {
+class Scriptlet {
 
     public static void main(String... args) {
 
